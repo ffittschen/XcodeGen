@@ -345,7 +345,7 @@ A source can be provided via a string (the path) or an object of the form:
 	- `private`
 	- `project`
 - [ ] **attributes**: **[String]** - Additional settings attributes that will be applied to any build files.
-- [ ] **resourceTags**: **[String]** - On Demand Resource Tags that will be applied to any resources. This also adds to the project attribute's knownAssetTags
+- [ ] **resourceTags**: **[String]** - On Demand Resource Tags that will be applied to any resources. This also adds to the project attribute's KnownAssetTags
 
 ```yaml
 targets:

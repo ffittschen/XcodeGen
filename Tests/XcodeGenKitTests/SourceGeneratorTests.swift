@@ -1032,11 +1032,11 @@ class SourceGeneratorTests: XCTestCase {
                         throw failure("File that buildPhase is source contain settings")
                     }
                     
-                    if !pbxProj.rootObject!.attributes.keys.contains("knownAssetTags") {
-                        throw failure("PBXProject does not contain knownAssetTags")
+                    if !pbxProj.rootObject!.attributes.keys.contains("KnownAssetTags") {
+                        throw failure("PBXProject does not contain KnownAssetTags")
                     }
                     
-                    try expect((pbxProj.rootObject!.attributes["knownAssetTags"] as! [String])) == ["tag1", "tag2", "tag3"]
+                    try expect((pbxProj.rootObject!.attributes["KnownAssetTags"] as! [String])) == ["tag1", "tag2", "tag3"]
                 }
             }
         }

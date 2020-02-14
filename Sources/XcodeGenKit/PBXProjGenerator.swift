@@ -286,7 +286,7 @@ public class PBXProjGenerator {
             .merged(project.attributes)
         
         if !assetTags.isEmpty {
-            projectAttributes["knownAssetTags"] = assetTags
+            projectAttributes["KnownAssetTags"] = assetTags
         }
         
         let knownRegions = sourceGenerator.knownRegions
